@@ -38,11 +38,11 @@
     <main>
       <h1>Contact Me!</h1>
         <form action="#" method="GET">
-            <p>Would you like to contact Rosh Alummoottil for a potiential hiring?</p>
-            <input type="radio" id="yes" name="button" value="Yes"/> 
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="button" value="No"/>
-            <label for="no">No</label>
+          <p>Please Enter Your Name:</p>
+            <label for="Text1" class="info"></label>
+            <input type="text" id="Text1" name="Text1" placeholder="First Name" size="30"/> 
+            <label for="Text2" class="info"></label>
+            <input type="text" id="Text2" name="Text2" placeholder="Last Name" size="30"/>
             <p></p>
             <p>Please Enter Your Contact Information:</p>
             <label for="Text1" class="info"></label>
@@ -52,7 +52,13 @@
             <p></p>
             <p>Please Add Any Additional Comments Here:</p>
             <label for="Text3" class="Comments"></label>
-            <input type="text" id="Text3" name="Text3" rows="5" cols="70"/>
+            <textarea id="Text3" name="Text3" rows="5" cols="50"></textarea>
+            <p></p>
+            <p>Would you like to contact Rosh Alummoottil for a potiential hiring?</p>
+            <input type="radio" id="yes" name="button" value="Yes"/> 
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="button" value="No"/>
+            <label for="no">No</label>
             <p></p>
             <input type="submit">
         </form>
